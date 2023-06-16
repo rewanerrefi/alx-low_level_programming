@@ -9,17 +9,18 @@
  * Return: 0 (success)
  */
 
-int main(void)
+void main(void)
 {
-	 int integerType;
-	 float floatType;
-	 double doubleType;
-	 char charType;
-	printf("Size of an int: %ld byte(s)\n", sizeof(int));
-	printf("Size of float: %ld byte(s)\n", sizeof(float));
-	printf("Size of long int: %ld byte(s)\n", sizeof(long int));
-	printf("Size of char: %ld byte(s)\n", sizeof(char));
-	printf("Size of long long int: %ld byte(s)\n", sizeof(long long int));
+	 char ch;
+	 int in;
+	 long int li;
+	 long long int lli;
+	 float f;
+	printf("Size of a char: %ld byte(s)\n", sizeof(ch));
+	printf("Size of an int: %ld byte(s)\n", sizeof(in));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
+	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
 
