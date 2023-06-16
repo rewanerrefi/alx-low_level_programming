@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	printf("Size of char pointer: %lu byte(s)\n", sizeof(char));
-	printf("\nSize of int pointer: %lu byte(s)\n", sizeof(int));
-	printf("\nSize of float pointer: %lu byte(s)\n", sizeof(float));
-	printf("\nSize of long int pointer: %lu byte(s)\n", sizeof(long int));
-	printf("\nSize of double pointer: %lu byte(s)\n", sizeof(double));
+	printf("Size of char pointer: %u byte(s)\n", sizeof(char));
+	printf("\nSize of int pointer: %u byte(s)\n", sizeof(int));
+	printf("\nSize of float pointer: %u byte(s)\n", sizeof(float));
+	printf("\nSize of long int pointer: %u byte(s)\n", sizeof(long int));
+	printf("\nSize of double pointer: %u byte(s)\n", sizeof(double));
 	return (0);
 }
 
