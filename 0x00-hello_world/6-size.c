@@ -6,7 +6,7 @@
  * Description: a C program that prints the size of various types.
  *
  *
- * Return: 0 (success)
+ * Return: 0(success)
  */
 
 void main(void)
