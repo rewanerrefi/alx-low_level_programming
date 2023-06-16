@@ -1,13 +1,7 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Description: a C program that prints the size of various types.
- *
- *
- * Return: always 0(SUCCESS)
- *
+ * main - main block
+ * Return: 0
  */
 
 void main(void)
